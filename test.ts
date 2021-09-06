@@ -1,3 +1,3 @@
-function test(){
-    return 10;
-}
+const test = (): number => 10
+
+test()
