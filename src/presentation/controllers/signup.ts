@@ -3,7 +3,7 @@ import { badRequest } from '../helpers/http-helper'
 import { HttpRequest, HttpResponse } from '../protocols/http'
 
 export class SignupController {
-  handle (httpRequest: HttpRequest): HttpResponse {
+  handle(httpRequest: HttpRequest): HttpResponse {
     if (!httpRequest.body.name) {
       return badRequest(new MissingParamError('name'))
     }
