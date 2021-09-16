@@ -1,4 +1,4 @@
-// eslint-disable-next-line import/export
+// eslint-disable-next-line
 export * from '../../protocols'
 export * from '../../protocols/email-validator'
 export * from '../../../domain/use-cases/add-account'
